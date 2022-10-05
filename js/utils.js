@@ -66,7 +66,7 @@ function Queue() {
     }
 }
 
-//将字符串重复n次并返回
+// Repeat a string n times and return it.
 function string_repeat(target, n) {
     let s = target, total = "";
     while (n > 0) {

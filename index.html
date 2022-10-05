@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8"/>
-    <title>电梯系统</title>
+    <title>Elevator System</title>
     <link href="images/leaf.png" rel="shortcut icon" type="image/x-icon"/>
     <link
             href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css"
@@ -25,29 +25,29 @@
 <body>
 <div class=" head-info ">
     <div class="building-info">
-        <p>楼层数目：<span id="floor_nums_info">10</span>&nbsp;<button class="btn btn-primary .btn-xs change_building-button"
+        <p>Number of Floors：<span id="floor_nums_info">8</span>&nbsp;<button class="btn btn-primary .btn-xs change_building-button"
                                                                   id="change-floor-nums"
                                                                   type="button">
-            更改
-        </button>&nbsp;电梯数目：<span id="elevator_nums_info">3</span>
+            change
+        </button>&nbsp;Number of agents：<span id="elevator_nums_info">2</span>
             <button class="btn btn-primary .btn-xs change_building-button" id="change-elevator_nums"
-                    type="button">更改
+                    type="button">change
             </button>
 
         </p>
         <div>
-            <div>更改电梯位置（所有电梯静止时使用有效）</div>
+            <div>Change Initial State : location of elevators</div>
             <button class="btn btn-info .btn-xs change_building-button half-one-half-distribution"
-                    type="button">一半电梯在一楼，一半分散分布
+                    type="button">Half of agents are at 1F, the others are distributed
             </button>
             <button class="btn btn-info .btn-xs change_building-button all-one"
-                    type="button">全部电梯在一楼
+                    type="button">All agents are at 1F
             </button>
         </div>
         <div>
-            <div>智能模式：所有电梯在空闲时自动分析系统状态并移动至缺乏电梯的楼层段</div>
+            <div>Smart Mode : Autonomous system controls elevators</div>
             <button class="btn btn-info .btn-xs enable-ai-mode-button"
-                    type="button">启动智能模式
+                    type="button">Smart Mode Enable
             </button>
         </div>
     </div>

@@ -15,8 +15,8 @@ const DOOR_OPENING = 3
 const ON = 1;
 const OFF = 0;
 
-let elevator_nums = 3
-let floor_nums = 10
+let elevator_nums = 2
+let floor_nums = 8
 
 let elevators = []
 let outdoor_buttons_state = []

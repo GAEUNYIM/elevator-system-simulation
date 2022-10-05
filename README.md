@@ -4,29 +4,23 @@ this is a web page to simulate elevator system.
 
 Preview URL(powered by GitHub Pages): https://lincolnye.github.io/elevator-system-simulation/
 
-# 电梯系统模拟
+Welcome to star！
 
-这是一个模拟电梯系统的网页小程序，对真实的电梯系统进行仿真还原，
+# Introduction
 
-预览地址由GitHub Pages支持：https://lincolnye.github.io/elevator-system-simulation/
+1. Support for any number f floors and elevators.
+2. Automatically arrange the required elevator access upon request from the floor, based on the number of requests . The state reglates the number of elevator movements.
+3. Switch door buttons in elevators are available and open door buttons terminate the closing process.
+4. With Smart Mode enabled, each elevator will observe the position and condition of the other elevators, automatically goes to the floor section where elevators are not available in your free time.
+5. Automatically judge and prevent malicious use of elevator buttons.
+6. Other features not yet mentioned
 
-欢迎star！
+Pure front-end, related technologies： HTML、CSS、JavaScript、jQuery、Bootstrap、finite state machine, etc.
 
-# 介绍
+# Possible Directions for Improvement
 
-1. 支持任意数目的楼层和电梯数目。
-2. 在有楼层请求时自动安排所需的电梯前往，根据请求数目动态调节电梯的运动数目。
-3. 电梯内的开关门按钮可用，开门按钮可终止关门进程。
-4. 启用智能模式后，每个电梯都会观察其他电梯的位置及状态，在空闲时自动前往缺乏电梯的楼层段。
-5. 自动判断恶意使用电梯内按钮的情形，并阻止。
-6. 其他暂未提及的特性
+1. When the number of floors is large, the elevator floor buttons are changed to be based on a total of 10 buttons 0-9Text input mode of buttons to avoid excessive floor buttons,
 
-本网页纯前端，相关技术： HTML、CSS、JavaScript、jQuery、Bootstrap、有限状态机等。
+# Disclaimer
 
-# 可能的改进方向
-
-1. 在楼层数目较大时，电梯楼层按钮改成基于0-9共十个按钮的文本输入方式，避免出现过多的楼层按钮，
-
-# 免责声明
-
-本项目部分资源来源于网络，版权属于原作者，仅供学习参考，切勿作为商业目的使用。如果侵害了您的合法权益，请您及时与我联系，我会在第一时间删除相关内容!
+Some of the resources of this project come from the network. The copyright belongs to the original author.Do not use for commercial purposes.If infringement of your legitimate rights and interests >, please contact me in time, I will delete the relevant content at the first time!
